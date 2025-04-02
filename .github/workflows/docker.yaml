@@ -6,12 +6,12 @@ on:
       - develop
       - 1.0-develop
   pull_request:
-    branches:
-      - develop
-      - 1.0-develop
+    branches: []
+#      - develop
+#      - 1.0-develop
   release:
-    types:
-      - published
+    types: []
+#      - published
 
 jobs:
   push:
